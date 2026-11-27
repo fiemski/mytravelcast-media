@@ -1,0 +1,19 @@
+@font-face{font-family:IDK;src:url(file:///usr/share/fonts/opentype/inter/InterDisplay-Black.otf)}
+@font-face{font-family:IDX;src:url(file:///usr/share/fonts/opentype/inter/InterDisplay-ExtraBold.otf)}
+@font-face{font-family:IDB;src:url(file:///usr/share/fonts/opentype/inter/InterDisplay-Bold.otf)}
+@font-face{font-family:IDS;src:url(file:///usr/share/fonts/opentype/inter/InterDisplay-SemiBold.otf)}
+@font-face{font-family:IDM;src:url(file:///usr/share/fonts/opentype/inter/InterDisplay-Medium.otf)}
+@font-face{font-family:IR;src:url(file:///usr/share/fonts/opentype/inter/Inter-Regular.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden;font-family:IR;color:#0a2238}
+body{position:relative}
+.logo{position:absolute;top:58px;left:64px;font-family:IDK;font-size:40px;letter-spacing:-.6px;color:#0a2238}
+.logo b{color:#0a86e0;font-weight:normal}
+.pill{display:inline-block;font-family:IDB;font-size:27px;letter-spacing:3px;color:#fff;background:#ff5230;border-radius:40px;padding:11px 24px}
+/* pasek trasy: wlasne przejscie mytravelcast */
+.route{position:absolute;left:48px;right:48px;bottom:44px;height:112px;background:#fff;border-radius:30px;box-shadow:0 10px 30px rgba(15,42,67,.16);display:flex;align-items:center;padding:0 34px;gap:26px}
+.route .lbl{flex:1;min-width:0}
+.route .lbl small{display:block;font-family:IDX;font-size:22px;letter-spacing:3px;color:#ff5230}
+.route .lbl span{display:block;font-family:IDK;font-size:34px;color:#0a2238;margin-top:4px;white-space:nowrap}
+.route svg{position:static;flex:0 0 330px}
+.sun{position:absolute;border-radius:50%;background:radial-gradient(circle,#fff7c2 0%,#ffe066 38%,#ffc23c 62%,rgba(255,194,60,0) 72%)}
